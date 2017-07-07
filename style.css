@@ -35,10 +35,6 @@
 	margin-left: 300px;
 }
 
-.categorie-amuse-bouche .first-row {
-	font-weight: bold;
-	text-align: center;
-}
 
 .categorie-amuse-bouche .second-row {
 	display: inline;
@@ -48,11 +44,21 @@
 	margin-left: 300px;
 }
 
-.categorie-amuse-bouche .second-row {
+.categorie-amuse-bouche p {
 	font-weight: bold;
 	text-align: center;
+	font-size: 15px;
 }
 
 .load-more {
+	display: inline;
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 2px;
+	text-align: center;
+	padding : 5px 10px;
+}
+
+.categorie {
 	text-align: center;
 }
