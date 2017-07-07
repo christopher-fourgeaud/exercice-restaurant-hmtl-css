@@ -1,3 +1,54 @@
+
+.header {
+	background: url("http://lorempixel.com/output/food-q-c-640-480-7.jpg")no-repeat ;
+    width: 600px;
+    height: 375px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+
+.navigation{
+
+
+  	list-style: none ;
+  	text-align: center ;
+}
+.navigation li {
+
+  	display: inline;	
+}
+
+.navigation li a{
+	text-decoration: none;
+	color: inherit;
+  	color: white;
+  
+}
+
+
+.header-h1 {
+	color:white;
+	text-align: center;
+
+}
+.header-h2 {
+
+	color:white;
+	text-align: center;
+}
+.header-view {
+	text-decoration: none;
+	color: inherit;
+	display: inline;
+	text-align: center;
+	color: white;	
+	border-style: solid;
+	border-width: 1px;
+=======
 .categorie-h3 {
 	color:#ff8080; 
 	opacity:75%;
@@ -61,4 +112,5 @@
 
 .categorie {
 	text-align: center;
+
 }
