@@ -1,0 +1,58 @@
+.categorie-h3 {
+	color:#ff8080; 
+	opacity:75%;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.categorie-p1 {
+	color: #ccccb3;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.categorie-menu-liste li {
+	display: inline;
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	text-align: center;
+	padding : 5px 10px;
+}
+
+.categorie-menu-liste {
+	text-align: center;
+	margin-right: 40px;
+}
+
+.categorie-amuse-bouche .first-row {
+	display: inline;
+	display:flex;
+	justify-content: space-around;
+	margin-right: 300px;
+	margin-left: 300px;
+}
+
+.categorie-amuse-bouche .first-row {
+	font-weight: bold;
+	text-align: center;
+}
+
+.categorie-amuse-bouche .second-row {
+	display: inline;
+	display:flex;
+	justify-content: space-around;
+	margin-right: 300px;
+	margin-left: 300px;
+}
+
+.categorie-amuse-bouche .second-row {
+	font-weight: bold;
+	text-align: center;
+}
+
+.load-more {
+	text-align: center;
+}
