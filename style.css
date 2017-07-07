@@ -1,6 +1,6 @@
 
 .service {
-	background:url('http://lorempixel.com/800/600');
+	background:url('http://lorempixel.com/800/600')no-repeat;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -125,12 +125,11 @@
 	text-align: center;
 	color: white;	
 	border-style: solid;
-<<<<<<< HEAD
+
 	border-width: 1px;
 }
-=======
-	border-width: 1px}
->>>>>>> 2a35dfb6243e2de33c64ec0a506563a0ffb3bb62
+
+
 .categorie-h3 {
 	color:#ff8080; 
 	opacity:75%;
@@ -196,7 +195,3 @@
 	text-align: center;
 
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 2a35dfb6243e2de33c64ec0a506563a0ffb3bb62
