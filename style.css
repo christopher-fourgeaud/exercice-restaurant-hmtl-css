@@ -56,12 +56,12 @@
   background-color: #008CBA;
   overflow: hidden;
   width: 0;
-  height: 100%;
+  height: 50%;
   transition: .5s ease;
 }
 
 .container:hover .overlay {
-  width: 100%;
+  width: 50%;
 }
 
 .text {
@@ -129,42 +129,106 @@
 	border-width: 1px;
 }
 
+/* =====================================================	*/
+/* 					Partie de Christopher					*/
 
-.categorie-h3 {
-	color:#ff8080; 
-	opacity:75%;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+/* Cette partie concerne le placement de la section "catégories"	*/
+
+.categorie {					
+	text-align: center;
+	background-color: #F5F2E9;
+	margin-bottom: 2em;
+	padding-bottom: 1em;
+
+}
+
+/* Cette partie concerne le titre "Catégories"	*/
+
+.categorie-h3 {					
+	color:#ff8085; 
+	font-family: "Lucida Sans Unicode",sans-serif;
 	letter-spacing: 1px;
 	text-align: center;
 }
 
-.categorie-p1 {
-	color: #ccccb3;
+/* Cette partie concerne le paragraphe sous le titre "Catégories"	*/
+
+.categorie-p1 {												
+	color: #1a0d00;
 	font-size: 10px;
 	font-weight: bold;
 	text-align: center;
 }
 
-.categorie-menu-liste li {
+/* Cette partie concerne le menu avec 5 boutons	*/
+
+.categorie-menu-liste { 	
+	text-align: center;
+	margin-top: 2em;
+	margin-right: 5em;
+
+}
+
+.categorie-menu-liste-ul {		
+	font-size:0.8em;
+	margin-bottom: 5em;
+}
+
+.categorie-menu-liste-ul li {	
 	display: inline;
-	border-style: solid;
+	border-style: solid;		
 	border-radius: 5px;
 	border-width: 1px;
 	text-align: center;
-	padding : 5px 10px;
+	margin-left: 20px;
+	font-size: 1em;
+	padding:10px;
 }
 
-.categorie-menu-liste {
-	text-align: center;
-	margin-right: 40px;
+.categorie-menu-liste li a {
+	text-decoration: none;   
+}
+
+.categorie-menu-liste a:visited {
+ text-decoration: none; 
+ color:black; 
+}
+
+.categorie-menu-liste-ul li:hover {
+	background-color: #E35654;
+}
+
+/* Cette partie concerne la partie avec les 6 images	*/
+
+.categorie-amuse-bouche .categorie-image {		
+	background: url('http://lorempixel.com/400/200');
+	height: 200px;
+	width: 200px;
+	position: relative;
+}
+
+.categorie-image:after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0);
+    transition: background-color .5s;
+}
+
+.categorie-image:hover:after {
+    background-color: rgba(217,107,107,.7); 
 }
 
 .categorie-amuse-bouche .first-row {
 	display: inline;
 	display:flex;
 	justify-content: space-around;
-	margin-right: 300px;
-	margin-left: 300px;
+	margin-right: 38em;
+	margin-left: 38em;
 }
 
 
@@ -172,26 +236,52 @@
 	display: inline;
 	display:flex;
 	justify-content: space-around;
-	margin-right: 300px;
-	margin-left: 300px;
+	margin-right: 38em;
+	margin-left: 38em;
 }
 
-.categorie-amuse-bouche p {
+/* Cette partie concerne les paragraphes sous les 6 images	*/
+
+.categorie-amuse-bouche h5 {
 	font-weight: bold;
 	text-align: center;
-	font-size: 15px;
+	font-size: 1em;
+	margin-bottom: -1em;
 }
 
+.mini-paragraphe {
+	padding-bottom: 10px;
+	font-size: 1em;
+	color: grey;
+}
+
+/* Cette partie concerne le bouton "load more"	*/
+
 .load-more {
-	display: inline;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+.load-more p {
 	border-style: solid;
 	border-radius: 5px;
 	border-width: 2px;
-	text-align: center;
-	padding : 5px 10px;
-}
-
-.categorie {
-	text-align: center;
+	display: inline;
+	padding:8px;
+	font-size: 0.9em;
 
 }
+
+.load-more p:hover {
+	background-color: #E35654;
+}
+
+.load-more a {
+ text-decoration: none;
+ color: black; 
+
+}
+
+/* 		  		 fin de la partie de Christopher			*/
+/* =====================================================	*/
